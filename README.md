@@ -7,12 +7,14 @@ https://ankamahjohnson.github.io/GitHub-user-profile/
 
 
 ## Features
-- Live GitHub user search via the GitHub REST API
+- Live GitHub user search via the GitHub - Live GitHub user search via the GitHub REST API
 - Displays real user profile photo dynamically
 - Shows GitHub username and bio on search
-Displays followers, following and repository count
+- Displays followers, following and repository count
 - Lists user repository names as clickable tags
-- Clean minimal search interface
+- **Neumorphism UI design** — soft raised card and input styling
+- Clean light grey Neumorphic background
+- Circular profile photo with soft shadow border
 - Real time data fetching on user input
 - Error handling for users not found
 - Fully responsive layout
