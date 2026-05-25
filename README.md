@@ -1,5 +1,5 @@
 # GitHub-profile-app
-New version of my existing repo with different ui 
+Neumorphism Edition. A redesigned version of the GitHub Profile Search app, rebuilt with a clean Neumorphism UI. This version upgrades the visual experience from a flat interface to a soft, modern Neumorphic design while maintaining full GitHub REST API functionality.
 
 ## Live Demo
 View Live 🌐
