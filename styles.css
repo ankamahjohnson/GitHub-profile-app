@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+box-sizing: border-box;
+}
+
+    /* Header */
+    .app-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 4px;
+    }
+
+    .app-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #555;
+      text-transform: uppercase;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      letter-spacing: -1px;
+    }
+
+.notif-dot {
+  width: 42px;
+  height: 42px;
+  background-color: #00FF41;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  position: absolute;
+  top: 29px;
+  right: 16px;
+}
+      
+body {
+background-color: #e0e5ec;;
+color: #333;
+font-family: 'Bebas Neue', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+position: relative;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255,255,255,0.2);
+  border-top: 4px solid #4078c0;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: none; /* hidden by default */
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+
+.user-form {
+width: 100%;
+max-width: 700px;
+}
+
+.user-form input {
+width: 90%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color: #e0e5ec;
+border: none;
+border-radius: 50px;
+color: #555;
+padding: 1rem;
+margin-bottom: 2rem;
+font-family: inherit;
+font-size: 1rem;
+box-shadow: 8px 8px 16px #b8bec7,
+-8px -8px 16px #ffffff;
+}
+
+.user-form input::placeholder {
+color: #bbb;
+text-align: center;
+}
+
+.user-form input:focus {
+outline: none;
+box-shadow:
+  inset 6px 6px 12px #b8bec7,
+  inset -6px -6px 12px #ffffff;
+text-align: center;
+}
+
+.card {
+max-width: 800px;
+background-color: #e0e5ec;
+border-radius: 20px;
+box-shadow: 10px 10px 20px #b8bec7,
+  -10px -10px 20px #ffffff;
+display: flex;
+padding: 3rem;
+margin: 0 1.5rem;
+justify-items: center;
+}
+
+.avatar {
+border-radius: 50%;
+border: none;
+box-shadow:
+  6px 6px 12px #b8bec7,
+  -6px -6px 12px #ffffff;
+height: 150px;
+width: 150px;
+}
+.user-info {
+color: #333;
+margin-left: 2rem;
+}
+.user-info h2 {
+margin-top: 0;
+}
+.user-info ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding: 0;
+max-width: 400px;
+margin: 9px 0;
+gap: 9px;
+}
+.user-info ul li {
+display: flex;
+align-items: center;
+}
+.user-info ul li strong {
+font-size: 0.9rem;
+margin-left: 0.5rem;
+flex-direction: column;
+align-items: center;
+  gap: 4px;
+}
+.repo {
+text-decoration: none;
+color: #4078c0;
+background-color: #e0e5ec;
+font-size: 0.7rem;
+padding: 0.25rem 0.5rem;
+margin-right: 0.5rem;
+margin-bottom: 0.5rem;
+display: inline-block;
+border-radius: 5px;
+}
+.repo:hover {
+  box-shadow:
+    inset 4px 4px 8px #b8bec7,
+    inset -4px -4px 8px #ffffff;
+}   
+
+@media (max-width: 500px) {
+.card {
+flex-direction: column;
+align-items: center;
+}
+.user-form {
+max-width: 400px;
+}
+}
