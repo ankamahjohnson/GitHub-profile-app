@@ -3,7 +3,7 @@ Neumorphism Edition. A redesigned version of the GitHub Profile Search app, rebu
 
 ## Live Demo
 View Live 🌐
-https://ankamahjohnson.github.io/GitHub-user-profile/
+https://ankamahjohnson.github.io/GitHub-profile-app/
 
 
 ## Features
