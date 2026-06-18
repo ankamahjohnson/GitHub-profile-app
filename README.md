@@ -26,4 +26,8 @@ https://ankamahjohnson.github.io/GitHub-profile-app/
 
 
 ## 📝
+> Note: This project uses a client-side API key for 
+> demonstration purposes. A production version would 
+> proxy requests through a backend server.
+
 Made with ❤️ as a frontend practice project.
