@@ -1,5 +1,5 @@
 # GitHub-profile-app
-Neumorphism Edition. A redesigned version of the GitHub Profile Search app, rebuilt with a clean Neumorphism UI. This version upgrades the visual experience from a flat interface to a soft, modern Neumorphic design while maintaining full GitHub REST API functionality.
+Neumorphism Edition. A dynamic GitHub user search application built with HTML, CSS, and JavaScript. Fetches and displays real-time GitHub profile data using the GitHub REST API including profile photo, bio, follower count, following count, total repositories, and pinned repository tags.
 
 ## Live Demo
 View Live 🌐
